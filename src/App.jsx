@@ -12,8 +12,8 @@ const App = () => {
     <Hero/>
     <HowItWorks/>
     <PricingSection/>
-   <ContactForm/>
-   <ContactList/>
+    <ContactForm/>
+    <ContactList/>
 
 
 
