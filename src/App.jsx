@@ -14,6 +14,7 @@ const App = () => {
     <PricingSection/>
     <ContactForm/>
     <ContactList/>
+    <Login/>
 
 
 
@@ -26,6 +27,12 @@ const App = () => {
     Hello it is Shahrukh
 
 
+    Hello its a Dashboard
+    Hello it is vikas
+    this is tushar
+    Hello it is Sudhanshu
+    Hello it is Khan
+    Hello it is Shahrukh
 
 
     Hey there how are you all?
