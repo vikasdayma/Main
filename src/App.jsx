@@ -25,11 +25,16 @@ const App = () => {
     Hello it is Khan
     Hello it is Shahrukh
 
+
+
+
+    Hey there how are you all?
+
+
    </div>
 
   
-
-    
+      
 
 
   );
