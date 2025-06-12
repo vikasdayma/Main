@@ -4,6 +4,7 @@ import PricingSection from "./components/PricingSection";
 import HowItWorks from "./components/HowItWorks";
 import ContactForm from "./components/ContactForm";
 import ContactList from "./components/ContactList";
+import Login from "./components/Login";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
     <PricingSection/>
    <ContactForm/>
    <ContactList/>
+  
     </div>
   );
 };
