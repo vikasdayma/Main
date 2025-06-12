@@ -12,12 +12,12 @@ const App = () => {
     <Hero/>
     <HowItWorks/>
     <PricingSection/>
-   <ContactForm/>
-   <ContactList/>
+    <ContactForm/>
+    <ContactList/>
 
 
 
-
+    
     Hello its a Dashboard
     Hello it is vikas
     this is tushar
@@ -31,6 +31,8 @@ const App = () => {
     Hey there how are you all?
 
 
+    Hello it is me 
+    hello this is papa
    </div>
 
   
