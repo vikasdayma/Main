@@ -13,6 +13,9 @@ const App = () => {
     <PricingSection/>
    <ContactForm/>
    <ContactList/>
+   <div>
+    Hello its a Dashboard
+   </div>
     </div>
   );
 };
