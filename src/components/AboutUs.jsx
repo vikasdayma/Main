@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 
-export default function AboutUs() {
+export default function Aboutus() {
   return (
     <div className="min-h-screen bg-[#0B0B0F] text-white px-11 " id='aboutus'>
       <h1 className="text-center text-5xl text-white ">About Us</h1>
