@@ -1,46 +1,23 @@
 import React from "react";
-import Hero from "./components/Hero";
-import PricingSection from "./components/PricingSection";
-import HowItWorks from "./components/HowItWorks";
 import ContactForm from "./components/ContactForm";
-import ContactList from "./components/ContactList";
-import Login from "./components/Login";
+import { Route,Routes } from "react-router";
+import Home from "./components/Home";
 
 const App = () => {
   return (
     <div className="relative min-h-screen bg-[#0B0B0F] text-white font-sans overflow-hidden">
-    <Hero/>
-    <HowItWorks/>
-    <PricingSection/>
-    <ContactForm/>
-    <ContactList/>
-    <Login/>
+   
+    <Routes>
+      <Route path="/form" element={<ContactForm/>}/>
+      <Route path="/" element={<Home/>}/>
+    </Routes>
+   
+    
 
 
 
     
-    Hello its a Dashboard
-    Hello it is vikas
-    this is tushar
-    Hello it is Sudhanshu
-    Hello it is Khan
-    Hello it is Shahrukh
-
-
-    Hello its a Dashboard
-    Hello it is vikas
-    this is tushar
-    Hello it is Sudhanshu
-    Hello it is Khan
-    Hello it is Shahrukh
-
-
-    Hey there how are you all?
-
-
-    Hello it is me 
-    hello this is papa
-    hello this is papa
+    
    </div>
 
   

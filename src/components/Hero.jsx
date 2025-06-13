@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
@@ -45,12 +46,18 @@ const Hero = () => {
 
         {/* Action Buttons */}
         <div className="mt-8 mb-6 flex justify-center gap-4">
+          <Link to='/form'>
           <button className="px-6 py-3 rounded-full text-black font-semibold bg-white shadow-lg hover:bg-[#E5E7EB] transition">
             Get Started
           </button>
-          <button className="px-6 py-3 rounded-full text-white font-semibold bg-[#374151] hover:bg-[#4B5563] transition">
-            Learn More
+          </Link>
+          <a href="#aboutus">
+          <button className="px-6 py-3 cursor-pointer rounded-full text-white font-semibold bg-[#374151] hover:bg-[#4B5563] transition">
+      
+          Learn More
           </button>
+          </a>
+       
         </div>
 
         {/* Subtext */}
