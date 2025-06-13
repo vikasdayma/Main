@@ -5,7 +5,7 @@ import Home from "./components/Home";
 
 const App = () => {
   return (
-    <div className="relative min-h-screen bg-[#0B0B0F] text-white font-sans overflow-hidden">
+    <div className="relative min-h-screen bg-[#0B0B0F] text-white font-sans overflow-hidden m-0">
    
     <Routes>
       <Route path="/form" element={<ContactForm/>}/>
